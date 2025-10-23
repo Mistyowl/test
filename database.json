@@ -1,0 +1,336 @@
+{
+  "institutions": [
+    {
+      "id": 1,
+      "name": "Лицей №1 им. Ломоносова",
+      "type": "Лицей",
+      "city": "Москва",
+      "region": "Московская область",
+      "profiles": ["Математика", "Физика", "IT"],
+      "contact": {
+        "phone": "+7 (495) 123-45-67",
+        "address": "ул. Ломоносова, 15",
+        "email": "info@lyceum1.ru",
+        "website": "https://lomonosov-lyceum.ru/"
+      },
+      "description": "Специализированный лицей с углубленным изучением точных наук",
+      "rating": 4.8,
+      "yearFounded": 1995,
+      "studentCount": 1200
+    },
+    {
+      "id": 2,
+      "name": "Гимназия №5",
+      "type": "Школа",
+      "city": "Санкт-Петербург",
+      "region": "Ленинградская область",
+      "profiles": ["Химия", "Биология", "Медицина"],
+      "contact": {
+        "phone": "+7 (812) 234-56-78",
+        "address": "Невский пр., 45",
+        "email": "info@gymnasium5.spb.ru",
+        "website": "https://gymnasium5.spb.ru"
+      },
+      "description": "Гимназия с естественнонаучным профилем",
+      "rating": 4.6,
+      "yearFounded": 1980,
+      "studentCount": 800
+    },
+    {
+      "id": 3,
+      "name": "IT-колледж «Технополис»",
+      "type": "Колледж",
+      "city": "Москва",
+      "region": "Московская область",
+      "profiles": ["IT", "Программирование", "Веб-дизайн"],
+      "contact": {
+        "phone": "+7 (495) 345-67-89",
+        "address": "ул. Технологическая, 8",
+        "email": "info@technopolis-college.ru",
+        "website": "https://technopolis-college.ru"
+      },
+      "description": "Современный IT-колледж с практико-ориентированным обучением",
+      "rating": 4.7,
+      "yearFounded": 2010,
+      "studentCount": 500
+    },
+    {
+      "id": 4,
+      "name": "Медицинский колледж №1",
+      "type": "Колледж",
+      "city": "Брянск",
+      "region": "Брянская область",
+      "profiles": ["Медицина", "Сестринское дело", "Фармация"],
+      "contact": {
+        "phone": "+7 (4832) 456-78-90",
+        "address": "ул. Медицинская, 12",
+        "email": "info@medcollege1.bryansk.ru",
+        "website": "https://medcollege1.bryansk.ru"
+      },
+      "description": "Ведущий медицинский колледж Брянской области",
+      "rating": 4.5,
+      "yearFounded": 1965,
+      "studentCount": 300
+    },
+    {
+      "id": 5,
+      "name": "Школа №23 с углубленным изучением математики",
+      "type": "Школа",
+      "city": "Брянск",
+      "region": "Брянская область",
+      "profiles": ["Математика", "Информатика", "Физика"],
+      "contact": {
+        "phone": "+7 (4832) 567-89-01",
+        "address": "ул. Школьная, 23",
+        "email": "info@school23.bryansk.ru",
+        "website": "https://school23.bryansk.ru"
+      },
+      "description": "Специализированная школа с математическим уклоном",
+      "rating": 4.4,
+      "yearFounded": 1975,
+      "studentCount": 600
+    },
+    {
+      "id": 16,
+      "name": "Математический лицей №1",
+      "type": "Лицей",
+      "city": "Брянск",
+      "region": "Брянская область",
+      "profiles": ["Математика", "Алгебра", "Геометрия", "Информатика"],
+      "contact": {
+        "phone": "+7 (4832) 123-45-67",
+        "address": "ул. Математическая, 15",
+        "email": "info@math-lyceum.bryansk.ru",
+        "website": "https://math-lyceum.bryansk.ru"
+      },
+      "description": "Специализированный математический лицей с углубленным изучением точных наук",
+      "rating": 4.7,
+      "yearFounded": 1990,
+      "studentCount": 400
+    },
+    {
+      "id": 17,
+      "name": "Гимназия №2 с математическим уклоном",
+      "type": "Школа",
+      "city": "Брянск",
+      "region": "Брянская область",
+      "profiles": ["Математика", "Физика", "Информатика", "Экономика"],
+      "contact": {
+        "phone": "+7 (4832) 234-56-78",
+        "address": "ул. Гимназическая, 8",
+        "email": "info@gymnasium2.bryansk.ru",
+        "website": "https://gymnasium2.bryansk.ru"
+      },
+      "description": "Гимназия с математическим профилем и углубленным изучением точных наук",
+      "rating": 4.5,
+      "yearFounded": 1985,
+      "studentCount": 500
+    },
+    {
+      "id": 18,
+      "name": "Школа №15 с углубленным изучением математики и информатики",
+      "type": "Школа",
+      "city": "Брянск",
+      "region": "Брянская область",
+      "profiles": ["Математика", "Информатика", "Программирование", "Физика"],
+      "contact": {
+        "phone": "+7 (4832) 345-67-89",
+        "address": "ул. Школьная, 15",
+        "email": "info@school15.bryansk.ru",
+        "website": "https://school15.bryansk.ru"
+      },
+      "description": "Школа с углубленным изучением математики и информационных технологий",
+      "rating": 4.3,
+      "yearFounded": 1980,
+      "studentCount": 700
+    },
+    {
+      "id": 6,
+      "name": "Лингвистическая гимназия",
+      "type": "Школа",
+      "city": "Москва",
+      "region": "Московская область",
+      "profiles": ["Английский язык", "Немецкий язык", "Французский язык"],
+      "contact": {
+        "phone": "+7 (495) 678-90-12",
+        "address": "ул. Полиглотов, 7",
+        "email": "info@lingua-gym.ru",
+        "website": "https://lingua-gym.ru"
+      },
+      "description": "Гимназия с углубленным изучением иностранных языков",
+      "rating": 4.9,
+      "yearFounded": 1990,
+      "studentCount": 400
+    },
+    {
+      "id": 7,
+      "name": "Художественный лицей",
+      "type": "Лицей",
+      "city": "Санкт-Петербург",
+      "region": "Ленинградская область",
+      "profiles": ["Живопись", "Дизайн", "Архитектура"],
+      "contact": {
+        "phone": "+7 (812) 789-01-23",
+        "address": "ул. Художников, 3",
+        "email": "info@art-lyceum.spb.ru",
+        "website": "https://art-lyceum.spb.ru"
+      },
+      "description": "Специализированный художественный лицей",
+      "rating": 4.6,
+      "yearFounded": 1985,
+      "studentCount": 250
+    },
+    {
+      "id": 8,
+      "name": "Экономический колледж",
+      "type": "Колледж",
+      "city": "Москва",
+      "region": "Московская область",
+      "profiles": ["Экономика", "Бухгалтерия", "Менеджмент"],
+      "contact": {
+        "phone": "+7 (495) 890-12-34",
+        "address": "ул. Экономическая, 19",
+        "email": "info@econ-college.ru",
+        "website": "https://econ-college.ru"
+      },
+      "description": "Колледж экономического профиля",
+      "rating": 4.3,
+      "yearFounded": 2000,
+      "studentCount": 400
+    },
+    {
+      "id": 9,
+      "name": "Физико-математический лицей",
+      "type": "Лицей",
+      "city": "Казань",
+      "region": "Республика Татарстан",
+      "profiles": ["Математика", "Физика", "Астрономия"],
+      "contact": {
+        "phone": "+7 (843) 901-23-45",
+        "address": "ул. Научная, 11",
+        "email": "info@physmath-lyceum.kazan.ru",
+        "website": "https://physmath-lyceum.kazan.ru"
+      },
+      "description": "Лицей с углубленным изучением физики и математики",
+      "rating": 4.7,
+      "yearFounded": 1992,
+      "studentCount": 350
+    },
+    {
+      "id": 10,
+      "name": "Биологическая школа-интернат",
+      "type": "Школа",
+      "city": "Москва",
+      "region": "Московская область",
+      "profiles": ["Биология", "Химия", "Экология"],
+      "contact": {
+        "phone": "+7 (495) 012-34-56",
+        "address": "ул. Биологическая, 5",
+        "email": "info@bio-school.ru",
+        "website": "https://bio-school.ru"
+      },
+      "description": "Специализированная школа-интернат биологического профиля",
+      "rating": 4.8,
+      "yearFounded": 1970,
+      "studentCount": 200
+    },
+    {
+      "id": 11,
+      "name": "Колледж информационных технологий",
+      "type": "Колледж",
+      "city": "Новосибирск",
+      "region": "Новосибирская область",
+      "profiles": ["IT", "Программирование", "Кибербезопасность"],
+      "contact": {
+        "phone": "+7 (383) 123-45-67",
+        "address": "ул. Компьютерная, 21",
+        "email": "info@it-college.nsk.ru",
+        "website": "https://it-college.nsk.ru"
+      },
+      "description": "Современный IT-колледж в Новосибирске",
+      "rating": 4.6,
+      "yearFounded": 2005,
+      "studentCount": 450
+    },
+    {
+      "id": 12,
+      "name": "Гимназия иностранных языков №7",
+      "type": "Школа",
+      "city": "Екатеринбург",
+      "region": "Свердловская область",
+      "profiles": ["Английский язык", "Китайский язык", "Испанский язык"],
+      "contact": {
+        "phone": "+7 (343) 234-56-78",
+        "address": "ул. Лингвистов, 14",
+        "email": "info@lang-gym7.ekb.ru",
+        "website": "https://lang-gym7.ekb.ru"
+      },
+      "description": "Гимназия с углубленным изучением иностранных языков",
+      "rating": 4.5,
+      "yearFounded": 1988,
+      "studentCount": 500
+    },
+    {
+      "id": 13,
+      "name": "Московский государственный университет им. М.В. Ломоносова",
+      "type": "Университет",
+      "city": "Москва",
+      "region": "Московская область",
+      "profiles": ["Математика", "Физика", "Химия", "Биология", "Филология"],
+      "contact": {
+        "phone": "+7 (495) 939-10-00",
+        "address": "Ленинские горы, 1",
+        "email": "info@msu.ru",
+        "website": "https://msu.ru"
+      },
+      "description": "Ведущий университет России",
+      "rating": 4.9,
+      "yearFounded": 1755,
+      "studentCount": 50000
+    },
+    {
+      "id": 14,
+      "name": "Санкт-Петербургский государственный университет",
+      "type": "Университет",
+      "city": "Санкт-Петербург",
+      "region": "Ленинградская область",
+      "profiles": ["Математика", "Физика", "История", "Философия", "Юриспруденция"],
+      "contact": {
+        "phone": "+7 (812) 328-20-00",
+        "address": "Университетская наб., 7-9",
+        "email": "info@spbu.ru",
+        "website": "https://spbu.ru"
+      },
+      "description": "Один из старейших университетов России",
+      "rating": 4.8,
+      "yearFounded": 1724,
+      "studentCount": 30000
+    },
+    {
+      "id": 15,
+      "name": "Брянский государственный технический университет",
+      "type": "Университет",
+      "city": "Брянск",
+      "region": "Брянская область",
+      "profiles": ["Машиностроение", "IT", "Экономика", "Строительство"],
+      "contact": {
+        "phone": "+7 (4832) 58-82-00",
+        "address": "бул. 50-летия Октября, 7",
+        "email": "info@tu-bryansk.ru",
+        "website": "https://tu-bryansk.ru"
+      },
+      "description": "Ведущий технический университет Брянской области",
+      "rating": 4.2,
+      "yearFounded": 1930,
+      "studentCount": 8000
+    }
+  ],
+  "metadata": {
+    "version": "1.0.1",
+    "lastUpdated": "2025-01-27",
+    "totalInstitutions": 18,
+    "cities": ["Москва", "Санкт-Петербург", "Брянск", "Казань", "Новосибирск", "Екатеринбург"],
+    "types": ["Школа", "Лицей", "Колледж", "Университет"],
+    "regions": ["Московская область", "Ленинградская область", "Брянская область", "Республика Татарстан", "Новосибирская область", "Свердловская область"]
+  }
+}
