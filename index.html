@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Профи-Гид - Твой персональный навигатор в мире образования</title>
-    <meta name="description" content="Найди своё идеальное место для учёбы. Профильные классы, лицеи, колледжи и университеты — всё в одном месте.">
+    <meta name="description"
+        content="Найди своё идеальное место для учёбы. Профильные классы, лицеи, колледжи и университеты — всё в одном месте.">
     <meta name="keywords" content="образование, поиск, школы, колледжи, университеты, лицеи">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,701;1,701&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,701;1,701&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,701;1,701&family=Unbounded:wght@200..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,701;1,701&family=Unbounded:wght@200..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <!-- Gradient Background Container -->
     <div class="gradient-container">
@@ -24,16 +31,14 @@
                     <nav class="nav-pill">
                         <a href="#all" class="nav-link active" onclick="filterByEducationType('all')">Главная</a>
                         <a href="#spo" class="nav-link" onclick="filterByEducationType('spo')">СПО (9 класс)</a>
-                        <a href="#higher" class="nav-link" onclick="filterByEducationType('higher')">Высшее (11 класс)</a>
+                        <a href="#higher" class="nav-link" onclick="filterByEducationType('higher')">Высшее (11
+                            класс)</a>
                         <a href="#about" class="nav-link">О нас</a>
                         <a href="#help" class="nav-link">Помощь</a>
                     </nav>
                     <div class="header-icon">
-                        <img src="img/logo1.png" 
-                             alt="Образование" 
-                             class="icon-grad"
-                             loading="lazy"
-                             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <img src="img/logo1.png" alt="Образование" class="icon-grad" loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                     </div>
                 </div>
             </div>
@@ -51,19 +56,11 @@
                 <!-- Search Bar -->
                 <div class="search-container">
                     <div class="search-wrapper">
-                        <img src="/img/loupe_icon.png" 
-                             alt="Поиск" 
-                             class="search-icon"
-                             loading="lazy"
-                             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                        <input 
-                            type="text" 
-                            id="searchInput" 
-                            class="search-input" 
-                            placeholder="Например: математический класс в Брянске"
-                            aria-label="Поиск учебных заведений"
-                            autocomplete="off"
-                        >
+                        <img src="img/loupe_icon.png" alt="Поиск" class="search-icon" loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <input type="text" id="searchInput" class="search-input"
+                            placeholder="Например: математический класс в Брянске" aria-label="Поиск учебных заведений"
+                            autocomplete="off">
                     </div>
                     <button class="search-button" onclick="performSearch()" aria-label="Найти учебные заведения">
                         Найти
@@ -72,36 +69,28 @@
 
                 <!-- Quick Filters -->
                 <div class="quick-filters">
-                    <button class="filter-btn" onclick="quickFilter('математика')" aria-label="Поиск по математике">Математика</button>
-                    <button class="filter-btn" onclick="quickFilter('IT')" aria-label="Поиск по IT">IT и программирование</button>
-                    <button class="filter-btn" onclick="quickFilter('медицина')" aria-label="Поиск по медицине">Медицина</button>
-                    <button class="filter-btn" onclick="quickFilter('языки')" aria-label="Поиск по языкам">Иностранные языки</button>
+                    <button class="filter-btn" onclick="quickFilter('математика')"
+                        aria-label="Поиск по математике">Математика</button>
+                    <button class="filter-btn" onclick="quickFilter('IT')" aria-label="Поиск по IT">IT и
+                        программирование</button>
+                    <button class="filter-btn" onclick="quickFilter('медицина')"
+                        aria-label="Поиск по медицине">Медицина</button>
+                    <button class="filter-btn" onclick="quickFilter('языки')" aria-label="Поиск по языкам">Иностранные
+                        языки</button>
                 </div>
 
                 <!-- Phone Mockups -->
                 <div class="phones-section">
                     <div class="phone-mockup phone-left">
-                        <img src="/img/phone_2.png" 
-                             alt="Учебное заведение" 
-                             loading="lazy">
-                        <img src="img/phone_title_left.png" 
-                             alt="Заголовок" 
-                             class="phone-overlay"
-                             loading="lazy">
+                        <img src="img/phone_2.png" alt="Учебное заведение" loading="lazy">
+                        <img src="img/phone_title_left.png" alt="Заголовок" class="phone-overlay" loading="lazy">
                     </div>
                     <div class="phone-mockup phone-center">
-                        <img src="img/phone_1.png" 
-                             alt="Учебное заведение" 
-                             loading="lazy">
+                        <img src="img/phone_1.png" alt="Учебное заведение" loading="lazy">
                     </div>
                     <div class="phone-mockup phone-right">
-                        <img src="img/phone_3.png" 
-                             alt="Учебное заведение" 
-                             loading="lazy">
-                        <img src="img/phone_title_right.png" 
-                             alt="Заголовок" 
-                             class="phone-overlay"
-                             loading="lazy">
+                        <img src="img/phone_3.png" alt="Учебное заведение" loading="lazy">
+                        <img src="img/phone_title_right.png" alt="Заголовок" class="phone-overlay" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -114,14 +103,16 @@
             <div class="results-header">
                 <h2 class="results-title">Результаты поиска</h2>
                 <div class="results-filters">
-                    <select id="typeFilter" class="filter-select" onchange="applyFilters()" aria-label="Фильтр по типу заведения">
+                    <select id="typeFilter" class="filter-select" onchange="applyFilters()"
+                        aria-label="Фильтр по типу заведения">
                         <option value="">Все типы</option>
                         <option value="Школа">Школы</option>
                         <option value="Лицей">Лицеи</option>
                         <option value="Колледж">Колледжи</option>
                         <option value="Университет">Университеты</option>
                     </select>
-                    <select id="cityFilter" class="filter-select" onchange="applyFilters()" aria-label="Фильтр по городу">
+                    <select id="cityFilter" class="filter-select" onchange="applyFilters()"
+                        aria-label="Фильтр по городу">
                         <option value="">Все города</option>
                     </select>
                 </div>
@@ -140,21 +131,22 @@
             <div class="about-content">
                 <div class="about-card">
                     <div class="about-icon" aria-hidden="true">
-                        <img src="/img/task_icon.png" alt="">
+                        <img src="img/task_icon.png" alt="">
                     </div>
                     <h3>Наша задача</h3>
-                    <p>Помочь каждому школьнику найти идеальное место для продолжения образования и реализации своих талантов.</p>
+                    <p>Помочь каждому школьнику найти идеальное место для продолжения образования и реализации своих
+                        талантов.</p>
                 </div>
                 <div class="about-card">
                     <div class="about-icon" aria-hidden="true">
-                        <img src="/img/loupe_icon.png" alt="">
+                        <img src="img/loupe_icon.png" alt="">
                     </div>
                     <h3>Умный поиск</h3>
                     <p>Просто опишите, что вы ищете, и мы найдем подходящие варианты среди учебных заведений.</p>
                 </div>
                 <div class="about-card">
                     <div class="about-icon" aria-hidden="true">
-                        <img src="/img/book_icon.png" alt="">
+                        <img src="img/book_icon.png" alt="">
                     </div>
                     <h3>Полная информация</h3>
                     <p>Профили обучения, контакты, особенности — всё, что нужно для принятия решения.</p>
@@ -193,15 +185,17 @@
             <p>Наш адрес: Брянская область, Дятьковский район, г. Дятьково, ул. К.Маркса, 7А</p>
             <p>Телефон: +7 980 339 22 83</p>
             <p>Email: lera.ryzhenkova@inbox.ru</p>
-           
+
         </div>
     </footer>
 
     <!-- Loading indicator -->
-    <div id="loadingIndicator" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: white; padding: 20px; border-radius: 8px; z-index: 1000;">
+    <div id="loadingIndicator"
+        style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: white; padding: 20px; border-radius: 8px; z-index: 1000;">
         Загрузка...
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
